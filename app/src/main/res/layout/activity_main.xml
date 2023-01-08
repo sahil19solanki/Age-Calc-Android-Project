@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_green"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+
+    >
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/give_age"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="@color/my_green2"
+        android:padding="10dp"
+        android:text="AGE"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="@color/black"
+        android:padding="1dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/btnDP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/my_green2"
+        android:text="@string/select"
+        android:textColor="@color/black"
+
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="@color/black"
+        android:padding="1dp"
+        android:text="10/12/2022"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="@color/black"
+        android:padding="1dp"
+        android:text="SELECTED DATE"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:id="@+id/TVAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="@color/black"
+        android:padding="1dp"
+        android:text="150000000000"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+
+        android:backgroundTint="@color/black"
+        android:padding="1dp"
+        android:text="Minutes Old"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        />
+
+
+</LinearLayout>
